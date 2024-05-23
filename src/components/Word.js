@@ -20,6 +20,7 @@ function Word({ selectedWord, correctLetters, onLetterChange }) {
       })}
     <input
       className="phone"
+      placeholder="Mobile Keypad"
       type="text"
       value={inputValue}
       onChange={handleInputChange}
