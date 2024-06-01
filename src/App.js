@@ -39,7 +39,7 @@ function App() {
           }
         }
       }
-      window.addEventListener('keydown', handleKeydown);
+      window.addEventListener('keydown', handleKeydown,);
       return() => window.removeEventListener('keydown', handleKeydown);
   }, [correctLetters, wrongLetters, playable]);
 
